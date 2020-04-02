@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Blossom Restó - Restaurante Familiar</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+</head>
+
+	
+<body>
+	<header>
+        <div class="barra"></div>
+        <div class="header-inner">
+		<div class="container  ">
+       
+      
+     <a class="link" href="index.html"><h1>Blossom Resto</h1></a>
+  
+        <div class="row">
+            <nav class="col navbar navbar-expand-md  ml-auto ">
+               
+                <button class="navbar-toggler ml-auto " 
+                        type="button" 
+                        data-toggle="collapse" 
+                        data-target="#barra" 
+                        aria-controls="barra" 
+                        aria-expanded="false" 
+                        aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                </button>
+                <div class="collapse navbar-collapse" id="barra">
+                    <ul class="navbar-nav menu-20 text-center ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link"  href="index.html"  >INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"  href="#nosotros" data-ancla="true"  data-tiempo="1000" >NOSOTROS</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link"  href="#galeria" data-ancla="true" data-tiempo="1000" >GALERÍA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"  href="#especialidad" data-ancla="true" data-tiempo="1000" >ESPECIALIDAD</a>
+                        </li>
+                        
+                         <li class="nav-item">
+                            <a class="nav-link"  href="#eventos" data-ancla="true" data-tiempo="1000" >EVENTOS</a>
+                        </li>
+				      
+                       
+                        <li class="nav-item">
+                            <a class="nav-link"  href="#contacto" data-ancla="true" data-tiempo="1000" >CONTACTO</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+           
+        
+        </div>
+        </div>
+        </div>
+	</header>
+
+    <section id="banner">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  
+
+  <div class="carousel-inner pc">
+    <div class="carousel-item active">
+       <video class="mobile" autoplay="autoplay" muted loop='loop' >
+           <source src="img/videom.mp4" type="video/mp4" >
+            
+                
+       </video>
+       <video class="no-mobile" autoplay="autoplay" muted loop='loop' >
+           <source src="img/video.mp4" type="video/mp4" >
+            
+                
+       </video>
+
+    </div>
+   
+    
+  </div>
+
+    
+
+
+</div>
+    </section>
+<main>
+<section id="nosotros">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-lg-6 ">
+                <h2>Nuestra Historia</h2>
+                <div class="d-flex justify-content-center">
+                    <img src="img/detalle-01.svg"  alt="detalle de decoracion" height="30px;">
+                </div>
+                <div>
+                    <p>Blossom es el lugar para el café de la mañana y de los platos al horno de barro de la noche, te traemos la pausa del almuerzo y brindamos excelencia con la pastelería para la merienda! Somos un espacio moderno, con una terraza perfecta para disfrutar con amigos y un salón de juegos para chicos para venir en familia. <br>
+
+A cualquier hora del día, somos la opción para vos. Desde que abrimos nuestras puertas nos dedicamos a poner en la mesa platos con ingredientes de primera calidad. </p>
+                </div>
+                <div>
+                    <p><a href="menu.pdf" target="_blank">Descubrí Nuestro Menú</a></p>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-6">
+                <img class="nos" src='img/comida/1.jpg' alt="plato de carne ">
+                
+            </div>
+            
+        </div>
+        
+    </div>   
+</section>
+
+<section id="horarios">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 mt-5">
+                <h2>Nuestros Horarios</h2>
+            </div>
+            <div class="col-sm-12 col-md-6 div-ho" >
+                <h3>Lunes a Domingo</h3> 
+                <p> 7:30 hrs a  01:00 hrs</p>
+            </div>
+            <div class=" cru col-sm-12 col-md-6 div-ho">
+                <h3>Reserva Tu Lugar</h3> 
+                <p>4711-0708 | 4711-5750 <span> Olivos</span></p>
+                <p>4793-6095 | 4793-4920 <span>Martínez</span></p>
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="col-sm-12  d-flex justify-content-center">
+                <a href="#contacto" class="btn btn-lg btn-reserva">RESERVAR</a>
+                
+            </div>
+            
+        </div>
+        
+    </div>
+    
+</section>
+
+<section id="galeria">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>Nuestra Cocina</h2>
+            </div>
+                <div class="col-sm-12 col-md-12 d-flex justify-content-center filtro">
+                        <ul class="d-flex  ">
+                            
+                            <li class="Desayuno"><a href="" class="btn btn-lg fil" data-filter='Desayunos'>Desayuno</a></li>
+                            <li  class="Fast"><a href="" class="btn btn-lg fil" data-filter='Fast'>Fast Food</a></li>
+                            <li  class="Platos"><a href="" class="btn btn-lg fil " data-filter='Platos'>Platos</a></li>
+                            <li  class="Tragos"><a href="" class="btn btn-lg fil " data-filter='Tragos'>Tragos</a></li>
+                            
+                        </ul>
+                    </div>
+                    
+                    <div class="col-sm-12 col-md-6 col-lg-4 mt-3 Desayunos cu ">
+                    <a data-fancybox="gallery" rel="group1" href="img/cocina/desayuno/1.png"><img src="img/cocina/desayuno/1c.png" alt="Merienda Doble"/><div class="hov"><p   >Merienda Doble</p></div></a>
+                        
+                    </div>  
+                    <div class="col-sm-12 col-md-6 col-lg-4 mt-3 Desayunos cu">
+                    <a data-fancybox="gallery" rel="group1" href="img/cocina/desayuno/2.png"><img src="img/cocina/desayuno/2c.png" alt="Pasteleria Artesanal"/><div class="hov"><p   >Pastelería Artesanal</p></div></a>
+                        
+                    </div>  
+                    <div class="col-sm-12 col-md-6 col-lg-4 mt-3 Desayunos cu">
+                    <a data-fancybox="gallery" rel="group1" href="img/cocina/desayuno/3.png"><img src="img/cocina/desayuno/3c.png" alt="Coobler de peras con helado"/><div class="hov"><p   >Coobler de peras con helado</p></div></a>
+                        
+                    </div> 
+
+                    <div class="col-sm-12 col-md-6 col-lg-4 mt-3 Desayunos cu">
+                    <a data-fancybox="gallery" rel="group1" href="img/cocina/desayuno/4.png"><img src="img/cocina/desayuno/4c.png" alt="Merienda para compartir"/><div class="hov"><p   >Merienda para compartir</p></div></a>
+                        
+                    </div> 
+                        
+                    <div class="col-sm-12 col-md-6 col-lg-4 mt-3 Desayunos cu">
+                    <a data-fancybox="gallery" rel="group1" href="img/cocina/desayuno/5.png"><img src="img/cocina/desayuno/5c.png" alt="New york cheesecake"/><div class="hov"><p   >New York Cheesecake</p></div></a>
+                        
+                    </div> 
+                        
+                    <div class="col-sm-12 col-md-6 col-lg-4 mt-3 Desayunos cu">
+                    <a data-fancybox="gallery" rel="group1" href="img/cocina/desayuno/6.png"><img src="img/cocina/desayuno/6c.png" alt="Oreo Cheesecake"/><div class="hov"><p   >Oreo Cheesecake</p></div></a>
+                        
+                    </div> 
+
+                    <!--INICIO PLATOS  -->
+                    <div class="col-sm-12 col-md-6 col-lg-4 mt-3 Platos cu p ">
+                    <a data-fancybox="gallery" rel="group1" href="img/cocina/platos/1.png"><img src="img/cocina/platos/1c.png" alt="Ribs al horno de barro"/><div class="hov"><p   >Ribs al horno de barro</p></div></a>
+                        
+                    </div>  
+                    <div class="col-sm-12 col-md-6 col-lg-4 mt-3 Platos cu p">
+                    <a data-fancybox="gallery" rel="group1" href="img/cocina/platos/2.png"><img src="img/cocina/platos/2c.png" alt="Lasagna de costillar braseado"/><div class="hov"><p   >Lasagna de costillar braseado </p></div></a>
+                        
+                    </div>  
+                    <div class="col-sm-12 col-md-6 col-lg-4 mt-3 Platos cu p">
+                    <a data-fancybox="gallery" rel="group1" href="img/cocina/platos/3.png"><img src="img/cocina/platos/3c.png" alt="Costillar ahumado"/><div class="hov"><p   >Costillar Ahumado</p></div></a>
+                        
+                    </div> 
+
+                    <div class="col-sm-12 col-md-6 col-lg-4 mt-3 Platos cu p">
+                    <a data-fancybox="gallery" rel="group1" href="img/cocina/platos/4.png"><img src="img/cocina/platos/4c.png" alt="Pasta oriental"/><div class="hov"><p   >Pasta oriental</p></div></a>
+                        
+                    </div> 
+                        
+                    <div class="col-sm-12 col-md-6 col-lg-4 mt-3 Platos cu p">
+                    <a data-fancybox="gallery" rel="group1" href="img/cocina/platos/5.png"><img src="img/cocina/platos/5c.png" alt="Costillar ahumados"/><div class="hov"><p   >Costillar Ahumado</p></div></a>
+                        
+                    </div> 
+                        
+                    <div class="col-sm-12 col-md-6 col-lg-4 mt-3 Platos cu p">
+                    <a data-fancybox="gallery" rel="group1" href="img/cocina/platos/6.png"><img src="img/cocina/platos/6c.png" alt="Wraps varios"/><div class="hov"><p   >Wraps</p></div></a>
+                        
+                    </div> 
+                 <!--INICIO TRAGOS  -->
+
+                 <div class="col-sm-12 col-md-6 col-lg-4 mt-3 Tragos cu p ">
+                    <a data-fancybox="gallery" rel="group1" href="img/cocina/Tragos/1.png"><img src="img/cocina/Tragos/1c.png" alt="Jugos Frutales"/><div class="hov"><p   >Jugos Frutales</p></div></a>
+                </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 mt-3 Tragos cu p ">
+                    <a data-fancybox="gallery" rel="group1" href="img/cocina/Tragos/2.png"><img src="img/cocina/Tragos/2c.png" alt="Limonadas"/><div class="hov"><p   >Limonada</p></div></a>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 mt-3 Tragos cu p ">
+                    <a data-fancybox="gallery" rel="group1" href="img/cocina/Tragos/3.png"><img src="img/cocina/Tragos/3c.png" alt="Tragos de Autor"/><div class="hov"><p   >Tragos de Autor</p></div></a>
+                    </div>
+                     <div class="col-sm-12 col-md-6 col-lg-4 mt-3 Tragos cu p ">
+                    <a data-fancybox="gallery" rel="group1" href="img/cocina/Tragos/4.png"><img src="img/cocina/Tragos/4c.png" alt="Tragos de Autor"/><div class="hov"><p   >Tragos de Autor</p></div></a>
+                    </div>
+                     <div class="col-sm-12 col-md-6 col-lg-4 mt-3 Tragos cu p ">
+                    <a data-fancybox="gallery" rel="group1" href="img/cocina/Tragos/5.png"><img src="img/cocina/Tragos/5c.png" alt="Limonada"/><div class="hov"><p   >Limonada</p></div></a>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 mt-3 Tragos cu p ">
+                    <a data-fancybox="gallery" rel="group1" href="img/cocina/Tragos/6.png"><img src="img/cocina/Tragos/6c.png" alt="Cerveza Artesanal"/><div class="hov"><p   >Cervezas Artesanales</p></div></a>
+                    </div>
+
+                <!--INICIO FAST FOOD  --> 
+                <div class="col-sm-12 col-md-6 col-lg-4 mt-3 Fast cu p ">
+                    <a data-fancybox="gallery" rel="group1" href="img/cocina/Hamburguesas/1.png"><img src="img/cocina/Hamburguesas/1c.png" alt="Pizza americana"/><div class="hov"><p   >Pizza americana</p></div></a>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4 mt-3 Fast cu p ">
+                    <a data-fancybox="gallery" rel="group1" href="img/cocina/Hamburguesas/2.png"><img src="img/cocina/Hamburguesas/2c.png" alt="Pizza katha"/><div class="hov"><p   >Pizza katha</p></div></a>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4 mt-3 Fast cu p ">
+                    <a data-fancybox="gallery" rel="group1" href="img/cocina/Hamburguesas/3.png"><img src="img/cocina/Hamburguesas/3c.png" alt="Hambuergesa Magic Doble Burguer"/><div class="hov"><p   >Magic Doble Burger</p></div></a>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4 mt-3 Fast cu p ">
+                    <a data-fancybox="gallery" rel="group1" href="img/cocina/Hamburguesas/4.png"><img src="img/cocina/Hamburguesas/4c.png" alt="Hambuerguesa Porteña"/><div class="hov"><p   >Hamburguesa Porteña</p></div></a>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4 mt-3 Fast cu p ">
+                    <a data-fancybox="gallery" rel="group1" href="img/cocina/Hamburguesas/5.png"><img src="img/cocina/Hamburguesas/5c.png" alt="Nuestras Hambuerguesas"/><div class="hov"><p   >Nuestras Hamburguesas</p></div></a>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4 mt-3 Fast cu p ">
+                    <a data-fancybox="gallery" rel="group1" href="img/cocina/Hamburguesas/6.png"><img src="img/cocina/Hamburguesas/6c.png" alt="Pizza katha"/><div class="hov"><p   >Pizza katha</p></div></a>
+                </div>
+        </div>
+        
+    </div>
+    
+</section>
+
+<section id="especialidad">
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>Nuestra Especialidad : <br> <span>Horno de Barro</span></h2>
+            </div>
+            <div class="mt-5">
+                <p> Se termina el día o se viene el finde de semana y querés disfrutar de una buena comida, diferente a todo lo que alguna vez probaste. En Blossom nos caracterizamos por ser la mejor opción para comer pizzas o cualquier carne al horno de barro. <br> Las opciones que no te podés perder son las increíbles bondiolas braseadas, los costillares cocidos durante 8 horas y muchos otros platos imperdibles. Vení a probar esta experiencia gastronómica única que no vas a poder encontrar en otro lugar! </p>
+            </div>
+            <div class="m-auto py-5" >
+                <a href="" class="btn btn-lg btn-reserva">RESERVAR</a>
+                
+            </div>
+        </div>
+        
+    </div>
+    
+
+</section>
+
+<section id="eventos">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-lg-6 my-5">
+                <h2 class="d-flex justify-content-center"> BLOSSOM Eventos</h2>
+                <div class="event">
+                    <p>Cumpleaños, fiestas infantiles, comuniones y bautismos.</p>
+                    <p >Eventos empresariales o corporativos.</p>
+                    <p >Consultá por nuestros desayunos, los menús especiales y la pastelería de primer nivel.</p>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-6 my-5  gal">
+            <a data-fancybox="gallery" rel="group1" href="img/eventos/1.jpeg"><img src="img/eventos/1.jpeg" alt="Salon de Blossom"/></a>
+             <a data-fancybox="gallery" rel="group1" href="img/eventos/2.jpeg"><img src="img/eventos/2.jpeg" alt="Salon de Blossom"/></a>
+              <a data-fancybox="gallery" rel="group1" href="img/eventos/3.jpeg"><img src="img/eventos/3.jpeg" alt="Salon de Blossom"/></a>
+               <a data-fancybox="gallery" rel="group1" href="img/eventos/4.jpeg"><img src="img/eventos/4.jpeg" alt="Salon de Blossom"/></a>
+
+                
+            
+            
+        </div>
+       
+    </div>
+    </div>
+
+</section>
+
+<section id="contacto" >
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>Contacto</h2>
+                
+            </div>
+                
+            </div>
+        </div>
+        
+    </div>
+    
+
+
+</section>
+
+<section id="contacto2" class="mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 ">
+                <h3 class="text-center">Contactanos</h3>
+                <div>
+                    <ul>
+                        <li class="ubicacion">(OLIVOS) Av.Maipu 2501 | (MARTINEZ) Edison 10</li>
+                        <li class="telefono"><a href="tel:4711-0708">4711-0708 </a>| <a href="tel:4793-6098">4793-6098</a></li>
+                        <li class="whatsapp1"><a href="https://wa.me/5491124770930">11 2477-0930</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-12 mt-4">
+                 <form id="frm" >
+
+            
+                
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="name1">Nombre Completo</label>
+      <input type="text" class="form-control" name='name1' id="name1" placeholder="Nombre Completo">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="email1">Email</label>
+      <input type="email" class="form-control" name="email1" id="email1" >
+    </div>
+  </div>
+<div class="form-row">
+  <div class="form-group col-md-6">
+    <label for="telefono">Teléfono</label>
+    <input type="tel" class="form-control" name="telefono" id="telefono" placeholder='Ingrese un Teléfono'>
+  </div>
+  <div class="form-group col-md-6">
+    <label for="fecha">Fecha</label>
+    <input type="date" class="form-control" name="fecha" id="fecha" >
+  </div>
+</div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="horario">Horario</label>
+      <input type="time" class="form-control" min="07:00"
+                                 max="21:00" name="horario" id="horario">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="local">Local</label>
+      <select id="local" name="local" class="form-control">
+        <option selected>Martinez</option>
+        <option>Olivos</option>
+      </select>
+    </div>
+    <div class="form-group col-md-6">
+      <label for="comensales">Comensales</label>
+      <input type="number" name="comensales" class="form-control" id="comensales">
+    </div>
+    <div class="form-group col-md-6">
+    <label for="message1">Comentarios</label>
+    <textarea class="form-control" id="message1" name="message1" rows="1"></textarea>
+  </div>
+  </div>
+  
+  <button type="submit" class="btn btn-lg btn-enviar  " id="sendmessage">ENVIAR</button>
+  <div id="msg"></div>
+
+            
+
+
+
+          </form>
+
+
+            </div>
+            
+        </div>
+        
+    </div>
+    <div class="mapa col-sm-12 mt-4 ">
+      <iframe class="ma1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3287.635849587206!2d-58.49189358445916!3d-34.512115080483284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb13eec0df111%3A0x69f324a43dbd36e!2sBlossom!5e0!3m2!1ses-419!2sar!4v1571631766998!5m2!1ses-419!2sar"  height="450"  style="border:0;" allowfullscreen=""></iframe>
+
+        <iframe class="ma2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3288.3893899895825!2d-58.50126688445968!3d-34.4930112804883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb1396b008209%3A0x65ce09afd3accb7e!2sBlossom!5e0!3m2!1ses-419!2sar!4v1571631797963!5m2!1ses-419!2sar"  height="450"  style="border:0;" allowfullscreen=""></iframe>
+        
+    </div>
+    
+      
+    
+
+</section>
+
+
+
+
+</main>
+ <footer>
+    <div class="foot">
+    <div class="container ">
+        <div class='row'>
+            <div class="col-sm-12 col-lg-4 footer-nosotros">
+                <h4>Nosotros</h4>
+                <p>
+                Blossom es el lugar para el café de la mañana y de los platos al horno de barro de la noche, te traemos la pausa del almuerzo y brindamos excelencia con la pastelería para la merienda! Somos un espacio moderno, con una terraza perfecta para disfrutar con amigos y un salón de juegos para chicos para venir en familia.
+                </p>
+                
+            </div>
+
+            <div class="col-sm-12 col-lg-4 footer-seguinos">
+                <h4>Seguinos</h4>
+                <div  >
+                    <ul class="m-auto">
+                        <li><a  href="https://www.instagram.com/blossom.resto/" class="insta"><img src="img/redes/instagram.svg" alt="instagram link"></a></li>
+                        <li><a href="https://www.facebook.com/BlossomResto/" class="face"><img src="img/redes/facebook.svg" alt="facebook link"></a></li>
+                        <li><a href="https://www.tripadvisor.com.ar/Restaurant_Review-g2137013-d13083403-Reviews-Blossom-Olivos_Capital_Federal_District.html" class="trip"><img src="img/redes/trip.svg" alt="tripadvisor link"></a></li>
+                    </ul>
+                </div>
+                
+            </div>
+            <div class="col-sm-12 col-lg-4 footer-contacto">
+            <h4>Contactanos</h4>
+            <div>
+                <ul >
+                    <li class="tel"> <a href="tel:4711-0708">4711-0708 </a>| <a href="tel:4793-6098">4793-6098</a></li>
+                    <li class="whatsapp"><a href="https://wa.me/5491124770930">11 2477-0930</a></li>
+                     <li class="email"><a href="mailto:blossom.consultas@gmail.com">blossom.consultas@gmail.com</a></li>
+                    
+
+                </ul>
+                
+            </div>
+                
+            </div>
+            
+            
+        </div>
+    
+            
+            
+
+    </div>
+    </div>
+    <div class="ult-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 m-auto">
+                    <p>© Blossom Resto. Todos los derechos reservados | Diseño Web By <a href="http://fakeba.com.ar/">FAKE</a> </p>
+                    
+                </div>
+                
+                
+            </div>
+            
+        </div>        
+    </div>
+
+</footer> 
+<a href="https://wa.me/5491124770930" target="_blank" class="js-statsd-wa-event-click btn-whatsapp btn-floating fixe-bottom visible-when-content-ready">
+            <svg baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" viewBox="300 -476.1 1792 1792"><path d="M1413 497.9c8.7 0 41.2 14.7 97.5 44s86.2 47 89.5 53c1.3 3.3 2 8.3 2 15 0 22-5.7 47.3-17 76-10.7 26-34.3 47.8-71 65.5s-70.7 26.5-102 26.5c-38 0-101.3-20.7-190-62-65.3-30-122-69.3-170-118s-97.3-110.3-148-185c-48-71.3-71.7-136-71-194v-8c2-60.7 26.7-113.3 74-158 16-14.7 33.3-22 52-22 4 0 10 .5 18 1.5s14.3 1.5 19 1.5c12.7 0 21.5 2.2 26.5 6.5s10.2 13.5 15.5 27.5c5.3 13.3 16.3 42.7 33 88s25 70.3 25 75c0 14-11.5 33.2-34.5 57.5s-34.5 39.8-34.5 46.5c0 4.7 1.7 9.7 5 15 22.7 48.7 56.7 94.3 102 137 37.3 35.3 87.7 69 151 101a44 44 0 0 0 22 7c10 0 28-16.2 54-48.5s43.3-48.5 52-48.5zm-203 530c84.7 0 165.8-16.7 243.5-50s144.5-78 200.5-134 100.7-122.8 134-200.5 50-158.8 50-243.5-16.7-165.8-50-243.5-78-144.5-134-200.5-122.8-100.7-200.5-134-158.8-50-243.5-50-165.8 16.7-243.5 50-144.5 78-200.5 134S665.3 78.7 632 156.4s-50 158.8-50 243.5a611 611 0 0 0 120 368l-79 233 242-77a615 615 0 0 0 345 104zm0-1382c102 0 199.5 20 292.5 60s173.2 93.7 240.5 161 121 147.5 161 240.5 60 190.5 60 292.5-20 199.5-60 292.5-93.7 173.2-161 240.5-147.5 121-240.5 161-190.5 60-292.5 60a742 742 0 0 1-365-94l-417 134 136-405a736 736 0 0 1-108-389c0-102 20-199.5 60-292.5s93.7-173.2 161-240.5 147.5-121 240.5-161 190.5-60 292.5-60z"></path></svg>        </a>
+
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/ajax.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
+<script src="js/animaScroll.js"></script>
+
+<script src="js/scripts.js"></script>
+
+</body>
+</html>
